@@ -12,7 +12,7 @@ $(document).ready(function() {
     $("#topics").on("click", ".buttons", function() {
         $("#output").empty();
         $.ajax({
-            url: "http://api.giphy.com/v1/gifs/search?q=" + $(this).html() + "&api_key=dc6zaTOxFJmzC&limit=10",
+            url: "https://api.giphy.com/v1/gifs/search?q=" + $(this).html() + "&api_key=dc6zaTOxFJmzC&limit=10",
             method: "GET"
         }).done(function(response) {
             console.log(response);

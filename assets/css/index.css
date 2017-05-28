@@ -1,0 +1,39 @@
+body {
+	background-color: #EFFFFA;
+}
+
+.buttons {
+	margin: 5px;
+}
+
+.container {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#output {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#search {
+	margin: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+}
+
+#topics {
+	margin-top: 10px;
+}
+
+.rating {
+	font-size: 40px;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+hr {
+	border: inset 2px grey;
+}

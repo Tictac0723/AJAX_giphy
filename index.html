@@ -10,24 +10,29 @@
 		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 		crossorigin="anonymous"></script>
 		<script src="assets/javascript/giphy.js"></script>
-		<link type="text/css" href="assets/css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 	</head>
 	<body>
-		<div class="row">
-			<div id="topics" class="col-md-12">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="topics"></div>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div id ="images" class="col-md-6">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="input-group" id="search">
+						<input type="text" id="newTopic" class="form-control" placeholder="Tell Me What You Want, What You Really, Really Want!">
+						<span class="input-group-btn">
+							<button class="btn btn-default" id="newTopicButton" type="button">Zigga Zig AH!</button>
+						</span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<div class="input-group">
-					<input type="text" class="form-control" placeholder="Tell me what you want, what you really really want!">
-					<span class="input-group-btn">
-						<button class="btn btn-default" type="button">Go!</button>
-					</span>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="output"></div>
 				</div>
 			</div>
 		</div>
